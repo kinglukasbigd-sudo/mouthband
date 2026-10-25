@@ -1,0 +1,11 @@
+Google Mobile Ads SDK (com.google.android.gms:play-services-ads) and
+Google User Messaging Platform SDK (com.google.android.ump:user-messaging-platform)
+
+These SDKs are provided by Google LLC and are not open source. Their use is governed by:
+
+- Google APIs Terms of Service: https://developers.google.com/terms
+- Android Software Development Kit License Agreement: https://developer.android.com/studio/terms
+- Google AdMob & AdSense Terms of Service: https://www.google.com/admob/terms.html
+
+How Google uses information from apps that use its services:
+https://policies.google.com/technologies/partner-sites

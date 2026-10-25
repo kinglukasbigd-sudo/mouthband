@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML mirror of the design tokens in ui/theme/Color.kt, for the window and the launcher icon. -->
+<resources>
+    <color name="cream">#FFF2EBE6</color>
+    <color name="indigo">#FF160572</color>
+    <color name="tangerine">#FFFF7701</color>
+</resources>

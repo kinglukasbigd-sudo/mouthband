@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MouthBand</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_done">Done</string>
+    <string name="action_next">Next</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_stop">Stop</string>
+    <string name="bpm_key_format">%1$d BPM · %2$s</string>
+    <string name="bpm_format">%1$d BPM</string>
+    <string name="settings">Settings</string>
+    <string name="more_actions">More actions for %1$s</string>
+
+    <!-- Home -->
+    <string name="home_eyebrow">No instruments · just your voice</string>
+    <string name="home_headline">Your mouth is the whole band.</string>
+    <string name="home_body">Beatbox a beat, hum the tune, sing on top. MouthBand turns it into a finished song.</string>
+    <string name="home_new_song">Start a new song</string>
+    <string name="home_your_songs">Your songs</string>
+    <plurals name="home_song_count">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <string name="home_empty_title">No songs yet</string>
+    <string name="home_empty_body">Tap “Start a new song”. The coach walks you through it in 8 short steps.</string>
+    <string name="song_default_title">Song %1$d</string>
+    <string name="song_rename_title">Rename song</string>
+    <string name="song_delete_title">Delete this song?</string>
+    <string name="song_delete_body">“%1$s” and all its takes will be removed from this phone. This can’t be undone.</string>
+    <string name="status_next_step">Step %1$d of 8 · %2$s next</string>
+    <string name="step_progress_description">Song progress: step %1$d of 8</string>
+
+    <!-- Coach steps -->
+    <string name="step_tag">Step %1$02d / 08</string>
+    <string name="step_name_vibe">Vibe</string>
+    <string name="step_name_beat">Beat</string>
+    <string name="step_name_bass">Bass</string>
+    <string name="step_name_chords">Chords</string>
+    <string name="step_name_melody">Melody / hook</string>
+    <string name="step_name_vocals">Vocals</string>
+    <string name="step_name_arrange">Arrange &amp; mix</string>
+    <string name="step_name_export">Export</string>
+
+    <string name="track_beat">Beat</string>
+    <string name="track_bass">Bass</string>
+    <string name="track_chords">Chords</string>
+    <string name="track_melody">Melody</string>
+    <string name="track_vocals_verse">Verse vocals</string>
+    <string name="track_vocals_chorus">Chorus vocals</string>
+
+    <string name="coach_beat_title">Beatbox your beat</string>
+    <string name="coach_beat_reason">The beat is the floor everything else stands on.</string>
+    <string name="coach_beat_tip1">Wait for 4 clicks, then: boom · tss · pff · tss. Two bars are enough.</string>
+    <string name="coach_beat_tip2">Boom for the kick, pff for the snare, tss for the hi-hat. Keep each sound short.</string>
+    <string name="coach_beat_tip3">Hold the phone a hand’s width from your mouth.</string>
+
+    <string name="coach_bass_title">Hum the bass</string>
+    <string name="coach_bass_reason">Bass glues the beat to the tune and makes it move.</string>
+    <!-- "dum" is onomatopoeia from the spec's coach copy, not a misspelling. -->
+    <string name="coach_bass_tip1" tools:ignore="Typos">Hum low and steady, one note per beat. Think ‘dum, dum’.</string>
+    <string name="coach_bass_tip2">Not sure which note? Stay on one. We keep everything in key.</string>
+    <string name="coach_bass_tip3">Listen to the beat and lock onto the kick.</string>
+
+    <string name="coach_chords_title">Hum the chords</string>
+    <string name="coach_chords_reason">Chords set the mood: bright, dark or somewhere between.</string>
+    <string name="coach_chords_tip1">Hum one long note per bar. We build the full chord for you.</string>
+    <string name="coach_chords_tip2">Change notes on the first beat of each bar.</string>
+    <string name="coach_chords_tip3">High or low doesn’t matter. We voice every chord for you.</string>
+
+    <string name="coach_melody_title">Find your hook</string>
+    <string name="coach_melody_reason">The hook is the part people hum after the song ends.</string>
+    <string name="coach_melody_tip1">Whistle or hum your catchiest idea. Simple beats complicated.</string>
+    <string name="coach_melody_tip2">Repeat one short phrase instead of inventing a long one.</string>
+    <string name="coach_melody_tip3">Leave little gaps. Space makes a hook stick.</string>
+
+    <string name="coach_verse_title">Sing the verse</string>
+    <string name="coach_verse_reason">Your voice turns the loop into a song.</string>
+    <string name="coach_verse_tip1">Sing or rap over the loop. Headphones on, phone at chin height.</string>
+    <string name="coach_verse_tip2">Start right after the clicks and keep going to the end.</string>
+    <string name="coach_verse_tip3">Mistakes are fine. Try again as often as you like.</string>
+
+    <string name="coach_chorus_title">Sing the chorus</string>
+    <string name="coach_chorus_reason">The chorus is the big moment. Give it a bit more energy.</string>
+    <string name="coach_chorus_tip1">Sing or rap over the loop. Headphones on, phone at chin height.</string>
+    <string name="coach_chorus_tip2">Repeat your strongest line. Choruses love repetition.</string>
+    <string name="coach_chorus_tip3">Go a little louder or higher than in the verse.</string>
+
+    <string name="coach_hear_example">Hear an example first</string>
+    <string name="coach_stop_example">Stop the example</string>
+    <string name="coach_how_to">How to record it</string>
+    <string name="coach_teach_link">Teach my sounds</string>
+    <string name="coach_skip">Skip step</string>
+    <string name="coach_record">Start recording</string>
+    <string name="coach_headphones">Headphones connected</string>
+    <string name="coach_mic">Mic</string>
+    <string name="level_too_quiet">Too quiet</string>
+    <string name="level_good">Good</string>
+    <string name="level_too_loud">Too loud</string>
+    <string name="level_meter_description">Mic level: %1$s</string>
+
+    <!-- Microphone permission -->
+    <string name="mic_rationale_title">Let MouthBand hear you</string>
+    <string name="mic_rationale_body">We use the microphone only while you record or teach sounds. Everything is processed on your phone and never uploaded.</string>
+    <string name="mic_allow">Allow microphone</string>
+    <string name="mic_denied_title">MouthBand needs the microphone</string>
+    <string name="mic_denied_body">Your voice is the instrument. Allow microphone access in Settings to record. Your audio never leaves your phone.</string>
+
+    <!-- Output devices -->
+
+    <!-- Teach your sounds -->
+    <string name="teach_title">Teach your sounds</string>
+    <string name="teach_reason">Say each sound 4 times so MouthBand learns your kick, snare and hi-hat.</string>
+    <string name="teach_kick">Kick</string>
+    <string name="teach_snare">Snare</string>
+    <string name="teach_hihat">Hi-hat</string>
+    <string name="teach_say_kick">“boom”</string>
+    <string name="teach_say_snare">“pff”</string>
+    <string name="teach_say_hihat">“tss”</string>
+    <string name="teach_listening">Listening… say %1$s · %2$d of 4</string>
+    <string name="teach_ready">Tap Start, then say each sound when its card is active.</string>
+    <string name="teach_all_done">All set. Your sounds are saved.</string>
+    <string name="teach_start">Start</string>
+    <string name="teach_reset">Reset my sounds</string>
+    <string name="teach_card_description">%1$s, %2$d of 4 recorded</string>
+
+    <!-- Recording -->
+    <string name="rec_label">Rec · %1$s</string>
+    <string name="rec_bar_counter">Bar %1$d / %2$d</string>
+    <string name="rec_count_in">Get ready…</string>
+    <string name="rec_keep_going">Keep going…</string>
+    <string name="rec_last_bar">Last bar!</string>
+    <string name="rec_stop">Stop recording</string>
+    <string name="rec_beat_description">Beat %1$d of 4</string>
+    <string name="rec_processing">Turning your take into music…</string>
+    <string name="rec_waveform">Live waveform of your take</string>
+    <string name="rec_live_hits">Live beat: your sounds appear where you make them</string>
+    <string name="rec_live_notes">Live pitch of your voice</string>
+    <string name="rec_timer_description">Recording time %1$s</string>
+    <string name="time_format" translatable="false">%1$d:%2$02d</string>
+
+    <!-- Review -->
+    <string name="review_note_selected">%1$s selected</string>
+    <string name="review_chord_selected">Chord %1$s selected</string>
+    <string name="review_delete_note">Delete note</string>
+    <string name="review_delete_chord">Delete chord</string>
+    <string name="review_undo">Undo</string>
+    <string name="review_save_changes">Save changes</string>
+    <string name="review_record_again">Record again</string>
+    <string name="coach_edit_kept">Edit the take you kept</string>
+    <string name="arrange_edit_track">Edit notes of</string>
+    <string name="review_title">How did it sound?</string>
+    <string name="review_ab_voice">Your voice</string>
+    <string name="review_ab_converted">Converted</string>
+    <string name="review_pattern">Pattern</string>
+    <string name="review_sound">Sound</string>
+    <string name="review_timing">Timing</string>
+    <string name="review_human">Human</string>
+    <string name="review_tight">Tight</string>
+    <string name="review_timing_value">%1$d%% tight</string>
+    <string name="review_try_again">Try again</string>
+    <string name="review_keep_next">Keep it · next: %1$s</string>
+    <string name="review_edit_hint">Tap a step to add or remove a hit.</string>
+    <string name="review_edit_hint_notes">Tap a note to select it, then keep it or delete it. Tap an empty cell to add one.</string>
+    <string name="review_no_hits_title">We didn’t hear any beats</string>
+    <string name="review_no_hits_body">We didn’t hear any beats — try louder and closer.</string>
+    <string name="review_no_pitch_title">We couldn’t hear a melody</string>
+    <string name="review_no_pitch_body">Hum or whistle a little louder, one clear note at a time.</string>
+    <string name="review_silence_title">We didn’t hear anything</string>
+    <string name="review_silence_body">Check that nothing covers the mic, then try again a little louder.</string>
+    <string name="review_vocal_hint">Listen back. Happy with it? Keep it and move on.</string>
+    <string name="grid_step">step</string>
+    <string name="grid_on">on</string>
+    <string name="grid_off">off</string>
+    <string name="roll_delete_note">Delete note</string>
+    <plurals name="roll_description">
+        <item quantity="one">Piano roll with %1$d note</item>
+        <item quantity="other">Piano roll with %1$d notes</item>
+    </plurals>
+    <string name="bar_label">Bar %1$d</string>
+    <string name="drum_kick">Kick</string>
+    <string name="drum_snare">Snare</string>
+    <string name="drum_hihat">Hi-hat</string>
+
+    <string name="kit_boom_bap">Boom-bap</string>
+    <string name="kit_trap">Trap</string>
+    <string name="kit_lofi">Lo-fi</string>
+    <string name="kit_rock">Rock</string>
+    <string name="kit_pop">Pop</string>
+    <string name="inst_synth_bass">Synth Bass</string>
+    <string name="inst_deep_sub">Deep Sub</string>
+    <string name="inst_electric_bass">Electric Bass</string>
+    <string name="inst_soft_keys">Soft Keys</string>
+    <string name="inst_warm_pad">Warm Pad</string>
+    <string name="inst_organ">Organ</string>
+    <string name="inst_piano">Piano</string>
+    <string name="inst_flute">Flute</string>
+    <string name="inst_bright_lead">Bright Lead</string>
+    <string name="inst_bell">Bell</string>
+    <string name="inst_voice">Your voice</string>
+
+    <!-- Vibe -->
+    <string name="vibe_title">Pick a vibe</string>
+    <string name="vibe_reason">The mood sets your tempo, key and sounds. Fine-tune it below.</string>
+    <string name="mood_chill">Chill</string>
+    <string name="mood_pop">Pop</string>
+    <string name="mood_hype">Hype</string>
+    <string name="mood_sad">Sad</string>
+    <string name="mood_rock">Rock</string>
+    <string name="vibe_tap_tempo">Tap tempo</string>
+    <string name="vibe_tap_hint">Tap along at least 4 times</string>
+    <string name="vibe_tempo">Tempo</string>
+    <string name="vibe_key">Key</string>
+    <string name="vibe_loop">Loop length</string>
+    <string name="vibe_loop_2">2 bars</string>
+    <string name="vibe_loop_4">4 bars</string>
+    <string name="vibe_major">Major</string>
+    <string name="vibe_minor">Minor</string>
+    <string name="vibe_locked">Tempo, key and loop length are fixed now that you’ve kept a take. To use different ones, start a new song.</string>
+    <string name="vibe_lock_hint">Choose carefully: tempo, key and loop length can’t be changed after you keep your first take.</string>
+    <string name="vibe_next">Next: beat</string>
+    <string name="vibe_slower">Slower</string>
+    <string name="vibe_faster">Faster</string>
+    <string name="vibe_selected">selected</string>
+
+    <!-- Arrange & mix -->
+    <string name="arrange_open_track">Sound and mix options for</string>
+    <string name="arrange_sound">Sound</string>
+    <string name="arrange_sound_hint">Tap a sound to hear it on this part. It changes right away.</string>
+    <string name="arrange_pan">Pan</string>
+    <string name="arrange_pan_description">Pan %1$s, left to right</string>
+    <string name="arrange_hear_part">Hear this part</string>
+    <string name="arrange_stop_hearing">Stop</string>
+    <string name="arrange_edit_notes">Edit notes</string>
+    <string name="arrange_record_again">Record again</string>
+    <string name="arrange_record_part">Record this part</string>
+    <string name="pan_centre">C</string>
+    <string name="pan_left">L %1$d</string>
+    <string name="pan_right">R %1$d</string>
+    <string name="arrange_reason">Choose which parts play in each section, then balance the levels.</string>
+    <string name="arrange_sections">Sections</string>
+    <string name="arrange_tracks">Tracks</string>
+    <string name="arrange_auto_mix">Auto-mix my song</string>
+    <string name="arrange_auto_mix_on">Auto-mix is on</string>
+    <string name="arrange_export">Export &amp; share</string>
+    <string name="arrange_play_song">Play song</string>
+    <string name="arrange_stop_song">Stop</string>
+    <string name="arrange_preparing">Preparing playback…</string>
+    <string name="sheet_drag_handle">Drag handle. Swipe down to close.</string>
+    <string name="arrange_nothing_audible">Nothing to play yet. Turn a recorded part on in a section, or unmute it.</string>
+    <string name="section_intro">Intro</string>
+    <string name="section_verse">Verse</string>
+    <string name="section_chorus">Chorus</string>
+    <string name="section_outro">Outro</string>
+    <string name="section_sheet_body">Turn parts on or off for this section.</string>
+    <string name="section_description">%1$s, %2$s, %3$s</string>
+    <plurals name="section_bars">
+        <item quantity="one">%1$d bar</item>
+        <item quantity="other">%1$d bars</item>
+    </plurals>
+    <plurals name="section_parts_playing">
+        <item quantity="one">%1$d part playing</item>
+        <item quantity="other">%1$d parts playing</item>
+    </plurals>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="volume">Volume</string>
+    <string name="gain_value">%1$.1f dB</string>
+    <string name="track_not_recorded">Not recorded</string>
+    <string name="arrange_empty_title">Nothing recorded yet</string>
+    <string name="arrange_empty_action">Back to the coach</string>
+    <string name="arrange_empty_body">Record at least one part in the coach, then come back to arrange it.</string>
+
+    <!-- Export -->
+    <string name="export_title">Export your song</string>
+    <string name="export_rendering">Rendering your song…</string>
+    <string name="export_encoding">Making the M4A…</string>
+    <string name="export_done">Your song is ready</string>
+    <string name="export_duration">Length %1$s</string>
+    <string name="export_save">Save to phone</string>
+    <string name="export_share">Share</string>
+    <string name="export_format_m4a">M4A · small</string>
+    <string name="export_format_wav">WAV · lossless</string>
+    <string name="export_failed_title">Export failed</string>
+    <string name="export_failed_body">Something went wrong while rendering. Your song is safe. Try again.</string>
+    <string name="export_cancel">Cancel export</string>
+    <string name="export_back_home">Back to my songs</string>
+    <string name="export_nothing_title">Nothing to export yet</string>
+    <string name="export_nothing_body">Record at least one part and turn it on in a section first.</string>
+    <string name="export_saved">Saved to your phone</string>
+    <string name="export_save_failed">Couldn’t save the file. Try another folder.</string>
+    <string name="export_share_title">Share your song</string>
+
+    <!-- Settings -->
+    <string name="settings_section_audio">Audio</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_latency">Latency calibration</string>
+    <string name="settings_latency_rerun">Re-run calibration</string>
+    <string name="settings_latency_nudge">Fine-tune by ear</string>
+    <string name="settings_teach">Teach sounds</string>
+    <string name="settings_teach_body">Record your kick, snare and hi-hat again.</string>
+    <string name="settings_click">Click sound</string>
+    <string name="settings_click_body">Metronome clicks while recording.</string>
+    <string name="settings_count_in">Count-in</string>
+    <string name="count_in_1">1 bar</string>
+    <string name="count_in_2">2 bars</string>
+    <string name="settings_privacy">Privacy and ad consent</string>
+    <string name="settings_privacy_body">Review or change your ad consent choices.</string>
+    <string name="settings_privacy_unavailable">No privacy choices are needed in your region.</string>
+    <string name="settings_licenses">Licenses</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Latency calibration -->
+    <string name="cal_title">Measure your phone’s delay</string>
+    <string name="cal_body">Put your phone on a table, volume up. We play a few short clicks and listen for them.</string>
+    <string name="cal_start">Start measuring</string>
+    <string name="cal_running">Listening… keep it quiet</string>
+    <string name="cal_done">Measured %1$d ms</string>
+    <string name="cal_failed">Too quiet, turn up the volume and try again</string>
+    <string name="cal_fallback">Using a typical %1$d ms for now.</string>
+    <string name="cal_skip">Skip for now</string>
+    <string name="cal_bluetooth">Disconnect Bluetooth first. Calibration needs the phone speaker.</string>
+    <string name="cal_headphones">Unplug headphones first. Calibration needs the phone speaker.</string>
+
+    <!-- Nudge -->
+    <string name="nudge_title">Fine-tune by ear</string>
+    <string name="nudge_body">Play your last take with the click. Drag until the take sits right on the clicks.</string>
+    <string name="nudge_no_take">Record a take first, then come back to fine-tune.</string>
+    <string name="nudge_offset">Offset %1$d ms</string>
+    <string name="nudge_earlier">Earlier</string>
+    <string name="nudge_later">Later</string>
+    <string name="nudge_save">Save</string>
+
+    <!-- Onboarding -->
+    <string name="onb1_title">Make songs with your voice</string>
+    <string name="onb1_body">Beatbox becomes drums. Humming becomes bass, chords and melody. Your singing stays you.</string>
+    <string name="onb2_title">We need your microphone</string>
+    <string name="onb2_body">MouthBand listens only while you record. Your audio is processed on this phone and never uploaded.</string>
+    <string name="onb3_title">Quick sound check</string>
+    <string name="onb3_body">Put your phone on a table, volume up. We measure the delay so your takes land on the beat.</string>
+    <string name="onb_page">%1$d / 3</string>
+
+    <!-- Licenses -->
+    <string name="licenses_title">Licenses</string>
+    <string name="licenses_body">MouthBand is built with these components.</string>
+    <string name="lic_fraunces" translatable="false">Fraunces</string>
+    <string name="lic_inter" translatable="false">Inter</string>
+    <string name="lic_jetbrains" translatable="false">JetBrains Mono</string>
+    <string name="lic_swiftf0" translatable="false">SwiftF0 pitch model</string>
+    <string name="lic_onnx" translatable="false">ONNX Runtime</string>
+    <string name="lic_jetpack" translatable="false">Android Jetpack, Jetpack Compose, Kotlin, kotlinx</string>
+    <string name="lic_google_ads" translatable="false">Google Mobile Ads SDK, User Messaging Platform</string>
+    <string name="lic_ofl" translatable="false">SIL Open Font License 1.1</string>
+    <string name="lic_mit" translatable="false">MIT License</string>
+    <string name="lic_apache" translatable="false">Apache License 2.0</string>
+    <string name="lic_google_terms" translatable="false">Google terms of service</string>
+
+    <!-- Errors -->
+
+    <!-- Restored per phase -->
+    <string name="action_ok">Got it</string>
+    <string name="bt_title">Bluetooth adds delay</string>
+    <string name="bt_body">Bluetooth adds delay. Use wired headphones or the phone speaker for recording.</string>
+    <string name="settings_latency_value">%1$d ms</string>
+    <string name="settings_latency_not_set">%1$d ms · not measured</string>
+
+    <string name="error_audio_busy">The audio system is busy. Close other audio apps and try again.</string>
+    <string name="error_mic_busy">Another app is using the microphone. Close it and try again.</string>
+    <string name="error_storage">Not enough storage to save this take.</string>
+
+    <string name="song_copy_title">%1$s (copy)</string>
+    <string name="status_ready_export">Ready to export</string>
+    <string name="status_exported">Exported · %1$s</string>
+    <string name="status_exported_now">Exported · just now</string>
+
+    <!-- Debug gallery -->
+    <string name="gallery_title">Component gallery</string>
+    <string name="gallery_demo_song">Create a demo song (debug)</string>
+    <string name="gallery_demo_title">Demo song</string>
+</resources>

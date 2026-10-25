@@ -1,0 +1,250 @@
+<html><head><meta charset='utf-8'><style>
+@page { size: 21cm 29.7cm; margin: 1.6cm 1.5cm 1.6cm 1.5cm; }
+body { font-family: 'DejaVu Sans', sans-serif; font-size: 9.5pt; }
+h1 { font-family: 'DejaVu Sans', sans-serif; font-size: 20pt; margin: 0 0 4pt 0; }
+h2 { font-family: 'DejaVu Sans', sans-serif; font-size: 11.5pt; background-color: #1a0f6e; color: #ffffff; padding: 4pt 6pt; margin: 14pt 0 4pt 0; }
+p.small { font-size: 8.5pt; color: #333333; margin: 2pt 0; }
+table { border-collapse: collapse; width: 100%; }
+td, th { border: 0.6pt solid #888888; padding: 3pt 4pt; vertical-align: middle; }
+th { background-color: #e8e4f5; font-size: 8.5pt; text-align: left; }
+td.n { width: 6%; text-align: center; color: #444444; }
+td.t { width: 54%; }
+td.o { width: 20%; }
+.box { font-size: 14pt; }
+p.line { border-bottom: 0.6pt solid #666666; margin: 10pt 0 0 0; height: 14pt; }
+</style></head><body>
+<h1>MouthBand – Testliste</h1>
+<p class='small'>Version 1.0.0 · Release-Build auf dem Handy. In jeder Zeile genau EINE Box ankreuzen: links das erwartete Ergebnis, rechts das Problem. Bei einem Problem kurz in die Notizzeile am Ende des Abschnitts schreiben, was passiert ist (Schritt, was du gesehen oder gehört hast).</p>
+<p class='small'>Tester: ____________________   Gerät / Android: ____________________   Datum: ______________</p>
+<h2>1  Start und Onboarding</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>1.1</td><td class='t' width='53%'>Kaltstart: App aus der Liste der letzten Apps wegwischen und neu öffnen. Erste Seite erscheint in unter 1,5 s.</td><td class='o' width='20%'><span class='box'>☐</span> schnell</td><td class='o' width='20%'><span class='box'>☐</span> spürbar langsam</td></tr>
+<tr><td class='n' width='7%'>1.2</td><td class='t' width='53%'>Seite 1/3 „Make songs with your voice“ → Next.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>1.3</td><td class='t' width='53%'>Seite 2/3: „Allow microphone“ → Android-Dialog erscheint, „While using the app“ wählen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>1.4</td><td class='t' width='53%'>Seite 3/3 „Quick sound check“ → „Start measuring“ (Handy auf den Tisch, Lautstärke hoch): Messung läuft, Ergebnis in ms.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>1.5</td><td class='t' width='53%'>„Skip for now“ → Home. Settings zeigen „150 ms · not measured“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>1.6</td><td class='t' width='53%'>Seitenwechsel im Onboarding (Überblendung) ist weich.</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>2  Home</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>2.1</td><td class='t' width='53%'>Leerer Zustand: Karte „No songs yet“ sichtbar.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.2</td><td class='t' width='53%'>„Start a new song“ → Vibe-Schritt öffnet.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.3</td><td class='t' width='53%'>Songkarte zeigt Titel, BPM · Tonart, 8 Fortschrittsbalken und Status („Step X of 8 …“).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.4</td><td class='t' width='53%'>Karte antippen → öffnet am richtigen Schritt (fertiger Song → Arrange).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.5</td><td class='t' width='53%'>Menü ⋮ → Rename: Name ändern und speichern.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.6</td><td class='t' width='53%'>Menü ⋮ → Duplicate: Kopie erscheint, ist unabhängig vom Original.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.7</td><td class='t' width='53%'>Menü ⋮ → Delete: Bestätigung, danach ist der Song weg.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.8</td><td class='t' width='53%'>Banner-Werbung nur auf Home, unten, überdeckt nichts.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.9</td><td class='t' width='53%'>Karten erscheinen/verschwinden/rutschen weich (Hinzufügen, Löschen).</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>2.10</td><td class='t' width='53%'>Einstellungs-Knopf (oben rechts) → Settings.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>2.11</td><td class='t' width='53%'>Zurück-Taste auf Home → App geht in den Hintergrund, bleibt am Leben, Wieder-Öffnen geht.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>3  Vibe (Schritt 1)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>3.1</td><td class='t' width='53%'>Mood-Karten Chill / Pop / Hype / Sad / Rock: Auswahl färbt sich, Tempo und Tonart ändern sich.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>3.2</td><td class='t' width='53%'>Tempo: Pfeile ◀ ▶ ändern die BPM um 1.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>3.3</td><td class='t' width='53%'>Tempo-Schieber zieht sich flüssig.</td><td class='o' width='20%'><span class='box'>☐</span> flüssig</td><td class='o' width='20%'><span class='box'>☐</span> hakt</td></tr>
+<tr><td class='n' width='7%'>3.4</td><td class='t' width='53%'>„Tap tempo“: 4× im Takt tippen → BPM passt sich an.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>3.5</td><td class='t' width='53%'>Tonart / Dur-Moll ändern.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>3.6</td><td class='t' width='53%'>Loop-Länge 2 Bars / 4 Bars umschalten.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>3.7</td><td class='t' width='53%'>Nach dem ersten gespeicherten Take: Hinweis, dass Tempo, Tonart und Länge gesperrt sind.</td><td class='o' width='20%'><span class='box'>☐</span> gesperrt + Hinweis</td><td class='o' width='20%'><span class='box'>☐</span> lässt sich ändern</td></tr>
+<tr><td class='n' width='7%'>3.8</td><td class='t' width='53%'>„Next: beat“ → Beat-Schritt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>4  Coach-Karte (Schritte 2–6: Beat, Bass, Chords, Melody, Vocals)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>4.1</td><td class='t' width='53%'>Titel, „STEP 0X / 08“ und Fortschrittsleiste (aktuelle Spur in ihrer Farbe) stimmen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.2</td><td class='t' width='53%'>„Hear an example first“ spielt das Beispiel; nochmal tippen stoppt es.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.3</td><td class='t' width='53%'>Mic-Meter (20 Segmente) reagiert live auf deine Stimme.</td><td class='o' width='20%'><span class='box'>☐</span> reagiert</td><td class='o' width='20%'><span class='box'>☐</span> tot / verzögert</td></tr>
+<tr><td class='n' width='7%'>4.4</td><td class='t' width='53%'>Meter-Urteil: still → „Too quiet“, normal → „Good“, sehr laut / Mund am Mikro → „Too loud“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.5</td><td class='t' width='53%'>Kabel-Kopfhörer anstecken → grüner Chip „Headphones connected“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.6</td><td class='t' width='53%'>Bluetooth-Kopfhörer verbinden → Warn-Sheet wegen Latenz erscheint.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.7</td><td class='t' width='53%'>Mikrofon-Erlaubnis verweigern → Seite „needs the microphone“ mit Allow / App settings, kein Absturz.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.8</td><td class='t' width='53%'>Mikrofon von anderer App belegt (z. B. Sprachrecorder offen) → Meldung statt Absturz.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.9</td><td class='t' width='53%'>„Skip step“ → nächster Schritt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.10</td><td class='t' width='53%'>Bei vorhandenem Take: „Edit the take you kept“ ist sichtbar.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>4.11</td><td class='t' width='53%'>Zurück-Pfeil und Zurück-Taste führen zur vorherigen Seite.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>5  Teach your sounds (erster Beat-Take oder Settings → Teach sounds)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>5.1</td><td class='t' width='53%'>„boom“, „pff“, „tss“ je 4× sagen: jeder Treffer wird gezählt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>5.2</td><td class='t' width='53%'>Reset in Settings → danach arbeitet die einfache Erkennung wieder.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>5.3</td><td class='t' width='53%'>Nach dem Lernen geht es zur Aufnahme weiter.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>6  Aufnahme (Indigo-Bildschirm)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>6.1</td><td class='t' width='53%'>Record-Taste → Bildschirm wächst weich ein.</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt / springt</td></tr>
+<tr><td class='n' width='7%'>6.2</td><td class='t' width='53%'>Count-in: „Count-in“, Klicks 1-2-3-4, Beat-Kästchen leuchten genau im Takt.</td><td class='o' width='20%'><span class='box'>☐</span> im Takt</td><td class='o' width='20%'><span class='box'>☐</span> zu spät</td></tr>
+<tr><td class='n' width='7%'>6.3</td><td class='t' width='53%'>Danach „BAR 1/2“, Überschrift „Keep going“, im letzten Takt „Last bar“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.4</td><td class='t' width='53%'>Timer läuft; Aufnahme endet am Loop-Ende, dann „Processing …“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.5</td><td class='t' width='53%'>Frühere Spuren sind beim Aufnehmen hörbar; Klick lässt sich in Settings abschalten.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.6</td><td class='t' width='53%'>Live-Wellenform: jeder Ton erscheint dort, wo du ihn gehört hast; Abspielkopf läuft ruhig.</td><td class='o' width='20%'><span class='box'>☐</span> passt</td><td class='o' width='20%'><span class='box'>☐</span> versetzt / hinkt</td></tr>
+<tr><td class='n' width='7%'>6.7</td><td class='t' width='53%'>Beat: Live-Drum-Spur (Kick / Snare / Hi-Hat) zeigt jeden Schlag sofort an der richtigen Stelle.</td><td class='o' width='20%'><span class='box'>☐</span> sofort</td><td class='o' width='20%'><span class='box'>☐</span> verzögert / fehlt</td></tr>
+<tr><td class='n' width='7%'>6.8</td><td class='t' width='53%'>Bass / Chords / Melody: Tonhöhen-Linie folgt der Stimme durchgehend, Lücken bei Pausen.</td><td class='o' width='20%'><span class='box'>☐</span> folgt</td><td class='o' width='20%'><span class='box'>☐</span> springt / fehlt</td></tr>
+<tr><td class='n' width='7%'>6.9</td><td class='t' width='53%'>Flüstern: Wellenform ist trotzdem gut sichtbar.</td><td class='o' width='20%'><span class='box'>☐</span> sichtbar</td><td class='o' width='20%'><span class='box'>☐</span> kaum zu sehen</td></tr>
+<tr><td class='n' width='7%'>6.10</td><td class='t' width='53%'>Schreien / laut: Wellenform bleibt in der Spur, flackert nicht.</td><td class='o' width='20%'><span class='box'>☐</span> ruhig</td><td class='o' width='20%'><span class='box'>☐</span> flackert</td></tr>
+<tr><td class='n' width='7%'>6.11</td><td class='t' width='53%'>Gesamteindruck der Anzeige während der Aufnahme.</td><td class='o' width='20%'><span class='box'>☐</span> flüssig</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>6.12</td><td class='t' width='53%'>Stop-Taste beendet früher; der Take wird trotzdem verarbeitet.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.13</td><td class='t' width='53%'>„Cancel“ → zurück zur Coach-Karte, nichts gespeichert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.14</td><td class='t' width='53%'>Zurück-Taste während der Aufnahme = Abbruch.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.15</td><td class='t' width='53%'>Anruf oder App-Wechsel während der Aufnahme → stoppt sauber, kein Absturz.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.16</td><td class='t' width='53%'>Nichts sagen (Stille) → „didn&#x27;t hear anything“, nichts wird gespeichert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>6.17</td><td class='t' width='53%'>Bass-Schritt nur klatschen / Rauschen → Meldung statt falscher Noten.</td><td class='o' width='20%'><span class='box'>☐</span> Meldung</td><td class='o' width='20%'><span class='box'>☐</span> falsche Noten</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>7  Review (nach jeder Aufnahme)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>7.1</td><td class='t' width='53%'>Review gleitet von unten ein und spielt automatisch als Loop.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.2</td><td class='t' width='53%'>Play / Pause-Taste.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.3</td><td class='t' width='53%'>A/B-Umschalter: „Original“ = deine Aufnahme, „Converted“ = Instrument (bei Vocals nicht vorhanden).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.4</td><td class='t' width='53%'>Beat: Zelle im Drum-Gitter antippen schaltet den Schlag an / aus.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.5</td><td class='t' width='53%'>„Bar 1“ / „Bar 2“ umschalten.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.6</td><td class='t' width='53%'>Piano-Roll: die Noten entsprechen dem, was du gesummt hast.</td><td class='o' width='20%'><span class='box'>☐</span> stimmen</td><td class='o' width='20%'><span class='box'>☐</span> falsche Töne</td></tr>
+<tr><td class='n' width='7%'>7.7</td><td class='t' width='53%'>Note antippen → ausgewählt (Rahmen) und Text „… selected“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.8</td><td class='t' width='53%'>„Delete note“ löscht die ausgewählte Note.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.9</td><td class='t' width='53%'>„Undo“ bringt gelöschte Noten zurück (auch mehrere Schritte).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.10</td><td class='t' width='53%'>Leere Zelle antippen fügt eine Note hinzu.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.11</td><td class='t' width='53%'>Chords: Akkord antippen wählt ALLE Töne; „Delete chord“ löscht den ganzen Akkord.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.12</td><td class='t' width='53%'>Sound-Chips: anderen Sound antippen → klingt sofort anders.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.13</td><td class='t' width='53%'>Beat: Drum-Kit wechseln (Boom-Bap, Trap, Lo-fi, Rock, Pop).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.14</td><td class='t' width='53%'>Timing-Schieber: „Human“ (roh) ↔ „Tight“ (aufs Raster) ist hörbar.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.15</td><td class='t' width='53%'>„Try again“ → zurück zur Coach-Karte, Take verworfen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.16</td><td class='t' width='53%'>„Keep it · next“ → nächster Schritt, Take ist gespeichert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.17</td><td class='t' width='53%'>Zurück-Taste im Review verhält sich wie „Try again“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>7.18</td><td class='t' width='53%'>Vocals: Take klingt klar, weder übersteuert noch zu leise.</td><td class='o' width='20%'><span class='box'>☐</span> klar</td><td class='o' width='20%'><span class='box'>☐</span> zu leise / verzerrt</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>8  Pegel und Klarheit (neu)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>8.1</td><td class='t' width='53%'>Sehr leise summen (Handy weit weg): Noten werden trotzdem erkannt.</td><td class='o' width='20%'><span class='box'>☐</span> erkannt</td><td class='o' width='20%'><span class='box'>☐</span> keine Noten</td></tr>
+<tr><td class='n' width='7%'>8.2</td><td class='t' width='53%'>Sehr laut summen / Mund nah am Mikro: Noten erkannt, Klang nicht verzerrt.</td><td class='o' width='20%'><span class='box'>☐</span> erkannt</td><td class='o' width='20%'><span class='box'>☐</span> verzerrt / keine Noten</td></tr>
+<tr><td class='n' width='7%'>8.3</td><td class='t' width='53%'>Normale Lautstärke: richtige Töne.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>8.4</td><td class='t' width='53%'>Beatbox sehr leise: Kick / Snare / Hi-Hat in den richtigen Reihen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>8.5</td><td class='t' width='53%'>Beatbox sehr laut: ebenfalls richtig.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>8.6</td><td class='t' width='53%'>Vocals leise aufgenommen: im Review und in Arrange laut genug.</td><td class='o' width='20%'><span class='box'>☐</span> laut genug</td><td class='o' width='20%'><span class='box'>☐</span> zu leise</td></tr>
+<tr><td class='n' width='7%'>8.7</td><td class='t' width='53%'>Nur Raumrauschen / Lüfter / Fernseher: „didn&#x27;t hear anything“, keine Phantom-Noten.</td><td class='o' width='20%'><span class='box'>☐</span> Meldung</td><td class='o' width='20%'><span class='box'>☐</span> Phantom-Noten</td></tr>
+<tr><td class='n' width='7%'>8.8</td><td class='t' width='53%'>Gespeicherter Take hat kein Brummen und kein Knacken.</td><td class='o' width='20%'><span class='box'>☐</span> sauber</td><td class='o' width='20%'><span class='box'>☐</span> Störgeräusch</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>9  Arrange (Schritt 7)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>9.1</td><td class='t' width='53%'>Ein fertiger Song (Schritt 8 erreicht) öffnet in Arrange, nicht in Export.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.2</td><td class='t' width='53%'>Abschnitts-Leiste (Intro / Verse / Chorus / Verse / Chorus / Outro): Block antippen → Sheet mit Schaltern.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.3</td><td class='t' width='53%'>Schalter an / aus ändert die Farbbalken im Block.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.4</td><td class='t' width='53%'>Play Song: spielt, aktueller Abschnitt wird hervorgehoben, Stop beendet.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.5</td><td class='t' width='53%'>Fader pro Spur: Lautstärke live hörbar, bleibt gespeichert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.6</td><td class='t' width='53%'>Mute (Lautsprecher-Knopf): Spur stumm, nochmal = wieder an.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.7</td><td class='t' width='53%'>„Auto-mix my song“: Pegel und Pan ändern sich; nochmal tippen = aus.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.8</td><td class='t' width='53%'>Nicht aufgenommene Spur zeigt „not recorded“ und ist ausgegraut.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.9</td><td class='t' width='53%'>Leerer Song: Hinweis „Nothing recorded yet“ mit Rückweg.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.10</td><td class='t' width='53%'>Alle Spuren stumm → Hinweis „Nothing to play yet“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.11</td><td class='t' width='53%'>App während des Abspielens verlassen → Wiedergabe stoppt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>9.12</td><td class='t' width='53%'>Zurück → Home.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>10  Fertigen Song bearbeiten und mischen (Spur-Sheet)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>10.1</td><td class='t' width='53%'>Spurzeile antippen („Bass ›“) → Sheet öffnet.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.2</td><td class='t' width='53%'>Sound-Chip antippen: Sound wird übernommen UND die Spur spielt allein; Zeile zeigt danach den neuen Namen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.3</td><td class='t' width='53%'>Bass: Synth Bass, Deep Sub, Electric Bass klingen unterscheidbar.</td><td class='o' width='20%'><span class='box'>☐</span> verschieden</td><td class='o' width='20%'><span class='box'>☐</span> gleich</td></tr>
+<tr><td class='n' width='7%'>10.4</td><td class='t' width='53%'>Chords: Soft Keys, Warm Pad, Organ klingen unterscheidbar.</td><td class='o' width='20%'><span class='box'>☐</span> verschieden</td><td class='o' width='20%'><span class='box'>☐</span> gleich</td></tr>
+<tr><td class='n' width='7%'>10.5</td><td class='t' width='53%'>Melody: Piano, Flute, Bright Lead, Bell klingen unterscheidbar.</td><td class='o' width='20%'><span class='box'>☐</span> verschieden</td><td class='o' width='20%'><span class='box'>☐</span> gleich</td></tr>
+<tr><td class='n' width='7%'>10.6</td><td class='t' width='53%'>Beat: die 5 Drum-Kits klingen unterscheidbar.</td><td class='o' width='20%'><span class='box'>☐</span> verschieden</td><td class='o' width='20%'><span class='box'>☐</span> gleich</td></tr>
+<tr><td class='n' width='7%'>10.7</td><td class='t' width='53%'>Pan-Schieber (Kopfhörer): Spur wandert links ↔ rechts, bleibt gespeichert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.8</td><td class='t' width='53%'>„Hear this part“ / „Stop“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.9</td><td class='t' width='53%'>Stumm geschaltete Spur lässt sich trotzdem anhören und bleibt danach stumm.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.10</td><td class='t' width='53%'>Stimme: Sheet ohne Sound-Chips, mit Pan, Hear und Record again.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.11</td><td class='t' width='53%'>Sheet schließen beendet das Anhören.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.12</td><td class='t' width='53%'>Bleistift „Edit notes“: Noten löschen / hinzufügen → „Save changes“ → zurück in Arrange, Änderung hörbar.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.13</td><td class='t' width='53%'>Editor mit Zurück verlassen → Änderungen verworfen, Arrange.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>10.14</td><td class='t' width='53%'>„Record again“: nach neuem „Keep it“ landest du wieder in Arrange (nicht im Coach).</td><td class='o' width='20%'><span class='box'>☐</span> Arrange</td><td class='o' width='20%'><span class='box'>☐</span> Coach</td></tr>
+<tr><td class='n' width='7%'>10.15</td><td class='t' width='53%'>Coach-Karte „Edit the take you kept“ → Editor → „Save changes“ → zurück zur Coach-Karte.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>11  Export (Schritt 8)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>11.1</td><td class='t' width='53%'>„Export &amp; share“ öffnet den Export-Bildschirm.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.2</td><td class='t' width='53%'>Format M4A / WAV umschalten.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.3</td><td class='t' width='53%'>Rendern: Fortschritt läuft, „Cancel“ bricht ab.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.4</td><td class='t' width='53%'>„Save to phone“ → Ordner wählen, Datei erscheint und spielt in Dateien / WhatsApp.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.5</td><td class='t' width='53%'>„Share“ → Teilen-Menü, Datei kommt in der Ziel-App an.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.6</td><td class='t' width='53%'>Play-Taste im Export spielt den Song wie gerendert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.7</td><td class='t' width='53%'>Klang des Exports = Arrange (nicht übersteuert, kein Knacken, richtige Länge).</td><td class='o' width='20%'><span class='box'>☐</span> gleich</td><td class='o' width='20%'><span class='box'>☐</span> anders</td></tr>
+<tr><td class='n' width='7%'>11.8</td><td class='t' width='53%'>Vollbild-Werbung nur nach erfolgreichem Export, nicht in der 1. Sitzung, höchstens alle ~4 Min, nie bei Wiedergabe / Aufnahme.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.9</td><td class='t' width='53%'>Home-Status „Exported · …“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>11.10</td><td class='t' width='53%'>Zurück → Arrange.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>12  Settings</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>12.1</td><td class='t' width='53%'>„Latency calibration“ zeigt Wert und Status.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.2</td><td class='t' width='53%'>„Re-run calibration“ (Handy auf Tisch) → Ergebnis in ms.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.3</td><td class='t' width='53%'>„Fine-tune by ear“ → letzter Take, Schieber verschiebt hörbar.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.4</td><td class='t' width='53%'>„Teach sounds“ / Reset.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.5</td><td class='t' width='53%'>„Click sound“ aus = kein Metronom beim Aufnehmen.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.6</td><td class='t' width='53%'>„Count-in“ 1 bar / 2 bars.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.7</td><td class='t' width='53%'>„Privacy and ad consent“: EU → Formular, sonst Hinweis „No privacy choices …“.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.8</td><td class='t' width='53%'>„Licenses“ öffnet und scrollt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>12.9</td><td class='t' width='53%'>„Version 1.0.0“ angezeigt; Zurück funktioniert.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>13  Animationen und Navigation (Hauptwunsch)</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>13.1</td><td class='t' width='53%'>Vorwärts: neuer Bildschirm schiebt von rechts herein, der alte driftet leicht nach links.</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt / springt</td></tr>
+<tr><td class='n' width='7%'>13.2</td><td class='t' width='53%'>Zurück-Taste: Bildschirm schiebt nach rechts hinaus (Spiegel der Vorwärts-Bewegung).</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt / springt</td></tr>
+<tr><td class='n' width='7%'>13.3</td><td class='t' width='53%'>Vorhersage-Zurück: langsam vom Rand wischen → Bildschirm folgt dem Finger, Loslassen vollendet oder bricht ab.</td><td class='o' width='20%'><span class='box'>☐</span> folgt dem Finger</td><td class='o' width='20%'><span class='box'>☐</span> springt</td></tr>
+<tr><td class='n' width='7%'>13.4</td><td class='t' width='53%'>Zurück auf Home / erster Onboarding-Seite: App geht in den Hintergrund, kein Absturz.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>13.5</td><td class='t' width='53%'>Knöpfe und Karten sinken beim Drücken leicht und federn zurück.</td><td class='o' width='20%'><span class='box'>☐</span> ja</td><td class='o' width='20%'><span class='box'>☐</span> nein</td></tr>
+<tr><td class='n' width='7%'>13.6</td><td class='t' width='53%'>Umschalter (Bar 1/2, Count-in, M4A/WAV): Auswahl gleitet.</td><td class='o' width='20%'><span class='box'>☐</span> gleitet</td><td class='o' width='20%'><span class='box'>☐</span> springt</td></tr>
+<tr><td class='n' width='7%'>13.7</td><td class='t' width='53%'>Chips, Mood-Karten, Fortschrittsleisten wechseln Farbe sanft.</td><td class='o' width='20%'><span class='box'>☐</span> sanft</td><td class='o' width='20%'><span class='box'>☐</span> hart</td></tr>
+<tr><td class='n' width='7%'>13.8</td><td class='t' width='53%'>Coach → Aufnahme → Review: Übergänge (Einblenden + Wachsen / Hochschieben).</td><td class='o' width='20%'><span class='box'>☐</span> weich</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>13.9</td><td class='t' width='53%'>Review: Leiste mit „Delete / Undo“ gleitet ein und aus.</td><td class='o' width='20%'><span class='box'>☐</span> gleitet</td><td class='o' width='20%'><span class='box'>☐</span> springt</td></tr>
+<tr><td class='n' width='7%'>13.10</td><td class='t' width='53%'>Gesamteindruck beim Navigieren durch die App.</td><td class='o' width='20%'><span class='box'>☐</span> flüssig</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>13.11</td><td class='t' width='53%'>Aufnahme-Bildschirm: Wellenform, Abspielkopf und Pegel laufen ruhig.</td><td class='o' width='20%'><span class='box'>☐</span> ruhig</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>13.12</td><td class='t' width='53%'>Systemeinstellung „Animationen entfernen“ an: App wechselt ohne Animation, nichts hängt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>14  System und Robustheit</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>14.1</td><td class='t' width='53%'>Tablet / Faltgerät (falls vorhanden): Layout zentriert und lesbar, Drehen ok.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.2</td><td class='t' width='53%'>App bei Wiedergabe in den Hintergrund: Ton stoppt, Rückkehr ok.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.3</td><td class='t' width='53%'>Eingehender Anruf bei Aufnahme / Wiedergabe: stoppt sauber.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.4</td><td class='t' width='53%'>Kopfhörer bei Wiedergabe abziehen: Wiedergabe stoppt.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.5</td><td class='t' width='53%'>Größte Systemschrift: nichts abgeschnitten.</td><td class='o' width='20%'><span class='box'>☐</span> lesbar</td><td class='o' width='20%'><span class='box'>☐</span> abgeschnitten</td></tr>
+<tr><td class='n' width='7%'>14.6</td><td class='t' width='53%'>TalkBack: Coach-Ablauf bedienbar, Buttons beschriftet, Noten haben „Delete“-Aktion.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.7</td><td class='t' width='53%'>Viele Songs (5+): Liste scrollt flüssig.</td><td class='o' width='20%'><span class='box'>☐</span> flüssig</td><td class='o' width='20%'><span class='box'>☐</span> ruckelt</td></tr>
+<tr><td class='n' width='7%'>14.8</td><td class='t' width='53%'>App beenden und neu starten: Songs, Takes und Einstellungen sind noch da.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.9</td><td class='t' width='53%'>Flugmodus: App funktioniert komplett (nur Werbung fehlt).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.10</td><td class='t' width='53%'>Speicher fast voll (falls testbar): Fehlermeldung statt Absturz.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>14.11</td><td class='t' width='53%'>1–2 Minuten wild durchtippen: kein Absturz, kein „reagiert nicht“.</td><td class='o' width='20%'><span class='box'>☐</span> stabil</td><td class='o' width='20%'><span class='box'>☐</span> Absturz / ANR</td></tr>
+<tr><td class='n' width='7%'>14.12</td><td class='t' width='53%'>10 Takes hintereinander: Treffer bleiben auf dem Raster (synchron).</td><td class='o' width='20%'><span class='box'>☐</span> synchron</td><td class='o' width='20%'><span class='box'>☐</span> driftet</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>15  Datenschutz und Werbung</h2>
+<table border='1' cellspacing='0' cellpadding='5' width='100%'><tr><th width='7%'>Nr.</th><th width='53%'>Was tun → was soll passieren</th><th width='40%' colspan='2'>Ergebnis (eine Box)</th></tr>
+<tr><td class='n' width='7%'>15.1</td><td class='t' width='53%'>Werbung nur als Home-Banner und als Vollbild nach Export; nie bei Aufnahme, Review oder Arrange.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>15.2</td><td class='t' width='53%'>Keine Speicher-Berechtigung verlangt (Export läuft über den Systemdialog).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>15.3</td><td class='t' width='53%'>Android-Einstellungen → App → Berechtigungen: nur Mikrofon.</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+<tr><td class='n' width='7%'>15.4</td><td class='t' width='53%'>Langes Drücken auf den Titel „MouthBand“ auf Home tut nichts (kein Demo-Menü im Release).</td><td class='o' width='20%'><span class='box'>☐</span> OK</td><td class='o' width='20%'><span class='box'>☐</span> Fehler</td></tr>
+</table>
+<p class='small'>Notizen:</p><p class='line'>&nbsp;</p><p class='line'>&nbsp;</p>
+<h2>16  Messwerte (eintragen)</h2>
+<p>Kaltstart (Zeit bis zur ersten Seite):  ________ ms        Ziel: unter 1500 ms</p>
+<p>Ruckelnde Frames beim Navigieren:  ________ %        Ziel: höchstens 5 %</p>
+<p>Gerät / Android-Version:  ______________________________________________</p>
+<p>Gesamteindruck Flüssigkeit (1 = schlecht … 5 = sehr gut):   1    2    3    4    5</p>
+<p class='small'>Tipp: Mit angeschlossenem Handy (USB-Debugging an) misst <b>tools/phone_check.sh</b> die ersten beiden Werte automatisch.</p>
+<h2>Allgemeine Notizen</h2>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+<p class='line'>&nbsp;</p>
+</body></html>

@@ -1,0 +1,41 @@
+# MouthBand detekt rules: detekt's defaults (buildUponDefaultConfig) plus the adjustments below.
+# Every adjustment is a convention of Jetpack Compose or of DSP code, documented in DECISIONS.md.
+
+naming:
+  FunctionNaming:
+    # Composable functions are PascalCase by Compose convention.
+    ignoreAnnotated: ['Composable']
+  TopLevelPropertyNaming:
+    # Compose design tokens (private val ButtonPadding = 24.dp) are PascalCase constants.
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+    propertyPattern: '[A-Za-z][_A-Za-z0-9]*'
+    privatePropertyPattern: '_?[A-Za-z][_A-Za-z0-9]*'
+
+complexity:
+  LongParameterList:
+    # Composables take state plus modifiers and slots; defaults are part of their API.
+    ignoreDefaultParameters: true
+    ignoreAnnotated: ['Composable']
+  LongMethod:
+    # A screen's layout reads top to bottom; splitting it hurts readability.
+    ignoreAnnotated: ['Composable']
+  TooManyFunctions:
+    # The limit guards a class's API. Private helpers (often extracted to satisfy the complexity
+    # rules) and lifecycle overrides such as onCleared() are not part of it.
+    ignorePrivate: true
+    ignoreOverridden: true
+
+style:
+  MagicNumber:
+    # Layout values in composables and named property/constant declarations are not magic.
+    ignoreAnnotated: ['Composable']
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreNamedArgument: true
+    ignoreEnums: true
+    ignoreNumbers: ['-1', '0', '1', '2', '0.5']
+  UnusedPrivateMember:
+    ignoreAnnotated: ['Preview']
+  ReturnCount:
+    max: 3
+    excludeReturnFromLambda: true
